@@ -1,8 +1,8 @@
 package org.springmvcshoppingcart.dao;
 
-import org.spingmvcshoppingcart.entity.Product;
-import org.spingmvcshoppingcart.model.PaginationResult;
-import org.spingmvcshoppingcart.model.ProductInfo;
+import org.springmvcshoppingcart.entity.Product;
+import org.springmvcshoppingcart.model.PaginationResult;
+import org.springmvcshoppingcart.model.ProductInfo;
 
 public interface ProductDAO {
 

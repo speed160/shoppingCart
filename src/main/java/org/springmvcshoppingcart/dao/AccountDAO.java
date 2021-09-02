@@ -1,6 +1,6 @@
 package org.springmvcshoppingcart.dao;
 
-import org.spingmvcshoppingcart.entity.Account;
+import org.springmvcshoppingcart.entity.Account;
 
 public interface AccountDAO {
 

@@ -9,18 +9,18 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
-import org.spingmvcshoppingcart.entity.Order;
-import org.spingmvcshoppingcart.entity.OrderDetail;
-import org.spingmvcshoppingcart.entity.Product;
-import org.spingmvcshoppingcart.model.CartInfo;
-import org.spingmvcshoppingcart.model.CartLineInfo;
-import org.spingmvcshoppingcart.model.CustomerInfo;
-import org.spingmvcshoppingcart.model.OrderDetailInfo;
-import org.spingmvcshoppingcart.model.OrderInfo;
-import org.spingmvcshoppingcart.model.PaginationResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springmvcshoppingcart.dao.OrderDAO;
 import org.springmvcshoppingcart.dao.ProductDAO;
+import org.springmvcshoppingcart.entity.Order;
+import org.springmvcshoppingcart.entity.OrderDetail;
+import org.springmvcshoppingcart.entity.Product;
+import org.springmvcshoppingcart.model.CartInfo;
+import org.springmvcshoppingcart.model.CartLineInfo;
+import org.springmvcshoppingcart.model.CustomerInfo;
+import org.springmvcshoppingcart.model.OrderDetailInfo;
+import org.springmvcshoppingcart.model.OrderInfo;
+import org.springmvcshoppingcart.model.PaginationResult;
 
 public class OrderDAOImpl implements OrderDAO {
 

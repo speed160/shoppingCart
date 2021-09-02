@@ -2,10 +2,10 @@ package org.springmvcshoppingcart.dao;
 
 import java.util.List;
 
-import org.spingmvcshoppingcart.model.CartInfo;
-import org.spingmvcshoppingcart.model.OrderDetailInfo;
-import org.spingmvcshoppingcart.model.OrderInfo;
-import org.spingmvcshoppingcart.model.PaginationResult;
+import org.springmvcshoppingcart.model.CartInfo;
+import org.springmvcshoppingcart.model.OrderDetailInfo;
+import org.springmvcshoppingcart.model.OrderInfo;
+import org.springmvcshoppingcart.model.PaginationResult;
 
 public interface OrderDAO {
 

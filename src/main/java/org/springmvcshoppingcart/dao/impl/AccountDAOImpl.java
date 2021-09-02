@@ -6,9 +6,9 @@ import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
-import org.spingmvcshoppingcart.entity.Account;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springmvcshoppingcart.dao.AccountDAO;
+import org.springmvcshoppingcart.entity.Account;
 
 // Transactional for Hibernate
 @Transactional

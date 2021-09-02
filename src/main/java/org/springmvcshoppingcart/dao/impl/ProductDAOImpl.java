@@ -9,11 +9,11 @@ import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
-import org.spingmvcshoppingcart.entity.Product;
-import org.spingmvcshoppingcart.model.PaginationResult;
-import org.spingmvcshoppingcart.model.ProductInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springmvcshoppingcart.dao.ProductDAO;
+import org.springmvcshoppingcart.entity.Product;
+import org.springmvcshoppingcart.model.PaginationResult;
+import org.springmvcshoppingcart.model.ProductInfo;
 
 // Transactional for Hibernate
 @Transactional
